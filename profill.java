@@ -24,8 +24,8 @@ public class profill {
                     System.out.println("4. Delete Profile");
                     System.out.println("5. Display Profiles");
                     int adminChoice = scanner.nextInt();
-                    scanner.nextLine();  // Consume the newline
-
+                    scanner.nextLine();  
+                    
                     switch (adminChoice) {
                         case 1:
                             System.out.print("Enter name:");
