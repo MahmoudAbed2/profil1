@@ -12,7 +12,8 @@ class Profile {
     private String streetname;
     private String phoneNumber;
 
-    public Profile(String name, String lastname, int age, String homeAdress, String phoneNumber, String streetname, String city, int postnummer) {
+
+    public Profile(String name, String lastname, int age, String homeAdress, String phoneNumber, String streetname, String city,  int postnummer) {
         this.name = name;
         this.lastname = lastname;
         this.age = age;
@@ -22,7 +23,6 @@ class Profile {
         this.city = city;
         this.postnummer = postnummer;
     }
-
     public String getName() {
         return name;
     }
@@ -56,6 +56,15 @@ class Profile {
     }
 
     public void setPhoneNumber(String newPhoneNumber) {
+    }
+
+
+    public String getCity() {
+        return city;
+    }
+
+    public void setCity(String city) {
+        this.city = city;
     }
 }
 
